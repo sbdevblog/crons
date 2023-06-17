@@ -1,0 +1,22 @@
+{
+    "name": "sbdevblog/module-sbdevblog-crons",
+    "description": "Get Customer Details",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.4||^8.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SbDevBlog\\Crons\\": ""
+        }
+    }
+}
+
