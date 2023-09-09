@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © SbDevBlog
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/queue.xsd">
+    <broker topic="sbdevblog.consumer.example" exchange="magento-db" type="db">
+        <queue name="sbdevblog.consumer.example"
+               consumer="sbdevblog.consumer.example"
+               consumerInstance="Magento\Framework\MessageQueue\Consumer"
+               handler="SbDevBlog\Crons\Model\Consumer::process"/>
+    </broker>
+</config>

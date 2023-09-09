@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © SbDevBlog
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Communication/etc/communication.xsd">
+    <topic name="sbdevblog.consumer.example" request="string">
+        <handler name="sbdevblog.consumer.example" type="SbDevBlog\Crons\Model\Consumer" method="process" />
+    </topic>
+</config>
