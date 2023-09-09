@@ -17,5 +17,7 @@ In order to install module, you can do it two ways:
         php bin/magento cron:run --group=GROUP
 
 Create a custom cron by clicking: https://sbdevblog.com/magento-2-create-custom-cron/
+
+Create a custom message queue by clicking: https://sbdevblog.com/magento-2-how-to-create-a-message-queue/
         
 
