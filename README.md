@@ -10,4 +10,12 @@ In order to install module, you can do it two ways:
         Clone and Just extract zip and paste SbDevBlog/Crons directory inside app/code
         Run necessary magento commands like setup:upgrade, di:compile, static-content:deploy
 
+    Command to run cron:
+        php bin/magento cron:run
+
+    Run specific group
+        php bin/magento cron:run --group=GROUP
+
+Create a custom cron by clicking: https://sbdevblog.com/magento-2-create-custom-cron/
+        
 
